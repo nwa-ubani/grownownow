@@ -271,7 +271,7 @@ const InteractiveLeadMagnet = () => {
       
       try {
         // Send lead data to n8n webhook
-        await fetch('https://grownownow.app.n8n.cloud/webhook-test/audit-leads', {
+  await fetch('https://grownownow.app.n8n.cloud/webhook/audit-leads', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
